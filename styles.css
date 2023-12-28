@@ -11,7 +11,7 @@ body {
   height: 100vh;*/
   font-family: "Roboto", sans-serif;
   margin: 0;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .top-section {
@@ -50,6 +50,7 @@ body {
   align-items: center;
   padding: 12px;
   margin-top: 50px;
+  padding-bottom: 100px;
 }
 
 .content-description {
@@ -83,6 +84,39 @@ body {
 
 .content-image {
   margin-right: 160px;
+}
+
+.main-info-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.main-info-section h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+
+.main-info {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.image-placeholder {
+  border: 4px solid #3882f6;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.info-content p {
+  text-align: center;
+  padding-top: 10px;
 }
 
 /*.xcontent {
