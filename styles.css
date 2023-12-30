@@ -6,12 +6,8 @@
 }
 
 body {
-  /*display: flex;
-  flex-direction: column;
-  height: 100vh;*/
   font-family: "Roboto", sans-serif;
   margin: 0;
-  /*overflow: hidden;*/
 }
 
 .top-section {
@@ -143,24 +139,51 @@ body {
   margin-right: -590px;
 }
 
-/*.xcontent {
-  flex: 1;
+.action-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 16px;
+  background-color: #3882f6;
+  border: 1px #e5e7eb;
+  border-radius: 7px;
+  margin: 100px 450px 100px 450px;
+  padding: 30px 10px 30px 10px;
 }
 
-a {
-  color: #666;
-  text-decoration: none;
+.text-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.text-action h4 {
+  color: #e5e7eb;
+  padding-left: 90px;
+}
+
+.text-action h6 {
+  color: #e5e7eb;
+  font-weight: lighter;
+  padding-left: 90px;
+}
+
+.signup-action {
+  display: flex;
+  justify-content: center;
+  padding-left: 350px;
+}
+
+.signup-action button {
+  width: 90px;
+  height: 25px;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border: 2px solid #e5e7eb;
+  border-radius: 5px;
 }
 
 .footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 16px;
-  background: #eee;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 25px;
 }
-*/
