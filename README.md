@@ -1,3 +1,6 @@
+[![Ceasefire Now](https://badge.techforpalestine.org/default)](https://techforpalestine.org/learn-more)
+
+
 # Odin-Landing-Page
 
 Project from Project Odin for Flexbox practice.
